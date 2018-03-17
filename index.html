@@ -105,7 +105,7 @@
       <section class="search">
         <h2 class="search-title">Заинтересовались?</h2>
         <p class="search-text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <span class="search-button">Поиск гостиницы в Седоне</span>
+        <a class="search-button" href="#">Поиск гостиницы в Седоне</a>
         <div class="modal modal-search">
           <!-- Здесь будет форма поиска -->
           <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
@@ -120,15 +120,15 @@
             <div class="search-item">
               <div class="adults">
                 <label for="search-adults">Взрослые:</label>
-                <span class="btn-search-item" tabindex="0" aria-label="Меньше">-</span>
+                <button class="btn-search-item" type="button">-</button>
                 <input type="number" id="search-adults" name="adults" min="0" value="2">
-                <span class="btn-search-item" tabindex="0" aria-label="Больше">+</span>
+                <button class="btn-search-item" type="button">+</button>
               </div>
               <div class="children">
                 <label for="search-children">Дети:</label>
-                <span class="btn-search-item" tabindex="0" aria-label="Меньше">-</span>
+                <button class="btn-search-item" type="button">-</button>
                 <input type="number" id="search-children" name="children" min="0" value="0">
-                <span class="btn-search-item" tabindex="0" aria-label="Больше">+</span>
+                <button class="btn-search-item" type="button">+</button>
               </div>
             </div>
             <button class="btn-search" type="submit">Найти</button>
