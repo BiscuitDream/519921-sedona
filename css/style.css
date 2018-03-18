@@ -92,3 +92,13 @@ a {
   color: #ffffff;
   background-color: #766357;
 }
+
+.search-button:hover,
+.search-button:focus {
+  background-color: #604e43;
+}
+
+.search-button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #503e33;
+}
