@@ -103,6 +103,16 @@ a {
   background-color: #503e33;
 }
 
+.search-form {
+  line-height: 26px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.search-form input {
+  font: inherit;
+}
+
 .btn-search {
   font-size: 21px;
   line-height: 26px;
@@ -123,4 +133,32 @@ a {
 .btn-search:active {
   background-color: #5496bd;
   color: rgba(255, 255, 255, 0.3);
+}
+
+.main-footer {
+  background-color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+}
+
+.footer-visitus a {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
+.social-button {
+  background-color: #81b3d2;
+}
+
+.footer-copyright span{
+  line-height: 26px;
 }
