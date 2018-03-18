@@ -129,12 +129,14 @@ a {
   border: 2px solid #e5e5e5;
 }
 
-/*.search-item input[placeholder],*/
-.search-item input::-webkit-input-placeholder,
+.search-form input::placeholder {
+/*.search-item input::-webkit-input-placeholder,
 .search-item input::-moz-placeholder,
 .search-item input:-moz-placeholder,
-.search-item input:-ms-input-placeholder {
+.search-item input::-ms-input-placeholder,
+.search-item input:-ms-input-placeholder {*/
   color: #000000;
+  opacity: 1;
 }
 
 /*input::-webkit-input-placeholder
