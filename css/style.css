@@ -269,3 +269,59 @@ a {
   color: #000000;
   border-bottom: none;
 }
+
+.result-hotel-info-title a {
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.result-hotel-info-title a:hover,
+.result-hotel-info-title a:focus {
+  color: #81b3d2;
+}
+
+.result-hotel-info-title a:active {
+  color: rgb(0, 0, 0, 0.3);
+}
+
+a.result-hotel-button{
+  color: #ffffff;
+  font-weight: bold;
+}
+
+a.button-more {
+  background-color: #81b3d2;
+}
+
+a.button-more:hover {
+  background-color: #669ec0;
+}
+
+a.button-more:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #5496bd;
+}
+
+a.button-booking {
+  background-color: #766357;
+}
+
+a.button-booking:hover,
+a.button-booking:focus {
+  background-color: #604e43;
+}
+
+a.button-booking:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #503e33;
+}
+
+.result-hotel-rating ul {
+  list-style: none;
+}
+
+.result-hotel-rating-value span {
+  color: #666666;
+  background-color: #f2f2f2;
+}
