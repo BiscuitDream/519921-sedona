@@ -162,3 +162,14 @@ a {
 .footer-copyright span{
   line-height: 26px;
 }
+
+
+/*catalog.html*/
+
+.site-navigation-current a{
+  color: #766357;
+}
+
+.inner-page {
+  text-align: left;
+}
