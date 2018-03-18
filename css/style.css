@@ -200,3 +200,37 @@ a {
 .site-navigation-current a{
   color: #766357;
 }
+
+.filters-form {
+  background-image: url("../img/filter-background.jpg");
+  background-color: #494e52;
+  color: #ffffff;
+}
+
+.filters-form fieldset {
+  border: none;
+}
+
+.filters-form legend {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.filters-form ul {
+  list-style: none;
+}
+
+.btn-filter {
+  font: inherit;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: transparent;
+  outline: none;
+  border: 2px solid #ffffff;
+}
+
+.btn-filter:hover,
+.btn-filter:focus {
+  color: #000000;
+  background-color: #ffffff;
+}
