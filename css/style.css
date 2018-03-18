@@ -11,3 +11,66 @@ body {
 
   background-color: #ffffff;
 }
+
+a {
+  text-decoration: none;
+}
+
+.main-navigation {
+  font-weight: bold;
+  line-height: 26px;
+  color: #000000;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a {
+  color: #000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: #81b3d2;
+}
+
+.site-navigation a:active {
+  color: rgba(0, 0, 0, 0.3)
+}
+
+.container {
+  text-align: center;
+}
+
+.intro-reasons h2 {
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.intro-reasons p {
+  line-height: 26px;
+}
+
+.reasons-row-cell {
+  background-color: #81b3d2;
+  color: #ffffff;
+}
+
+.reasons-row-cell h2{
+  font-size: 21px;
+}
+
+/*.reasons-row-double-cell {
+  background-color:
+}*/
+
+.reason-row-item h2 {
+  font-size: 21px;
+  color:#000000;
+}
+
+.reasons-row:last-child {
+  background-color: #eeeeee;
+}
