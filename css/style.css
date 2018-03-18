@@ -234,3 +234,38 @@ a {
   color: #000000;
   background-color: #ffffff;
 }
+
+.result-sort h3 {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.result-sort ul{
+  list-style: none;
+}
+
+.result-sort-menu {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.result-sort-menu a {
+  /*text-decoration: none;*/
+  color: rgba(0, 0, 0, 0.3);
+  border-bottom: 1px dashed #81b3d2;
+}
+
+.result-sort-item-current a {
+  color: #81b3d2;
+  border-bottom: none;
+}
+
+.result-sort-menu a:hover,
+.result-sort-menu a:focus {
+  color: #81b3d2;
+}
+
+.result-sort-menu a:active {
+  color: #000000;
+  border-bottom: none;
+}
