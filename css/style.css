@@ -74,3 +74,21 @@ a {
 .reasons-row:last-child {
   background-color: #eeeeee;
 }
+
+.search-title {       /*.search h2 {}*/
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.search-text {        /*.search p {}*/
+  line-height: 24px;
+}
+
+.search-button {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #766357;
+}
