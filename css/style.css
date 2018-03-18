@@ -66,6 +66,10 @@ a {
   background-color:
 }*/
 
+.reasons-row-list {
+  list-style: none;
+}
+
 .reason-row-item h2 {
   font-size: 21px;
   color:#000000;
@@ -106,12 +110,34 @@ a {
 .search-form {
   line-height: 26px;
   font-weight: bold;
-  text-align: left;
+  /*text-align: left;*/
 }
 
 .search-form input {
   font: inherit;
+  background-color: #f2f2f2;
+  border: none;
 }
+
+.search-form input:hover {
+  background-color: #ebebeb;
+}
+
+.search-form input:focus {
+  outline: none;
+  background-color: #ffffff;
+  border: 2px solid #e5e5e5;
+}
+
+.search-form input[placeholder] {
+  color: #000000;
+}
+
+.btn-search-item {
+  background-color: #f2f2f2;
+  border: none;
+}
+
 
 .btn-search {
   font-size: 21px;
