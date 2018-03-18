@@ -62,9 +62,9 @@ a {
   font-size: 21px;
 }
 
-/*.reasons-row-double-cell {
-  background-color:
-}*/
+.reasons-row-double-cell {
+  background-color: #816d65;
+}
 
 .reasons-row-list {
   list-style: none;
@@ -203,7 +203,7 @@ a {
 
 .filters-form {
   background-image: url("../img/filter-background.jpg");
-  background-color: #494e52;
+  background-color: #688094;
   color: #ffffff;
 }
 
