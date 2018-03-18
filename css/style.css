@@ -129,9 +129,19 @@ a {
   border: 2px solid #e5e5e5;
 }
 
-.search-form input[placeholder] {
+/*.search-item input[placeholder],*/
+.search-item input::-webkit-input-placeholder,
+.search-item input::-moz-placeholder,
+.search-item input:-moz-placeholder,
+.search-item input:-ms-input-placeholder {
   color: #000000;
 }
+
+/*input::-webkit-input-placeholder
+input[placeholder]          {text-overflow:ellipsis;}
+input::-moz-placeholder     {text-overflow:ellipsis;}
+input:-moz-placeholder      {text-overflow:ellipsis;}
+input:-ms-input-placeholder {text-overflow:ellipsis;} */
 
 .btn-search-item {
   background-color: #f2f2f2;
