@@ -102,3 +102,25 @@ a {
   color: rgba(255, 255, 255, 0.3);
   background-color: #503e33;
 }
+
+.btn-search {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: #81b3d2;
+  border: none;
+}
+
+.btn-search:hover,
+.btn-search:focus {
+  background-color: #669ec0;
+}
+
+.btn-search:active {
+  background-color: #5496bd;
+  color: rgba(255, 255, 255, 0.3);
+}
