@@ -163,7 +163,7 @@ a {
 
 .main-footer {
   background-color: rgba(255, 255, 255, 0.9);
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .footer-visitus a {
@@ -174,7 +174,7 @@ a {
 }
 
 .footer-social {
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .footer-social ul {
@@ -192,10 +192,11 @@ a {
 
 /*catalog.html*/
 
-.site-navigation-current a{
-  color: #766357;
+.container.inner-page {
+  text-align: left;
 }
 
-.inner-page {
-  text-align: left;
+
+.site-navigation-current a{
+  color: #766357;
 }
