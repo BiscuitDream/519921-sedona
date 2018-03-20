@@ -264,7 +264,7 @@ input:-ms-input-placeholder {text-overflow:ellipsis;} */
 .result-sort-menu a {
   /*text-decoration: none;*/
   color: rgba(0, 0, 0, 0.3);
-  border-bottom: 1px dashed #81b3d2;
+  border-bottom: 1px dotted #81b3d2;
 }
 
 .result-sort-item-current a {
