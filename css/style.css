@@ -343,6 +343,17 @@ a.button-booking:active {
 /*-------------Сеточные стили---------------*/
 
 
+html {
+  box-sizing: border-box;
+}
+
+*, *!::before, *!::after {
+  box-sizing: inherit;
+}
+
+
+
+
 .page-wrapper {
   padding: 0;
   margin: 0 auto;
@@ -365,4 +376,42 @@ a.button-booking:active {
 
 .intro-reasons p {
   margin-bottom: 56px;
+}
+
+.reasons-row {
+  display: flex;
+}
+
+.reasons-row-cell {
+  width: 400px;
+}
+
+.reasons-row-double-cell {
+  width: 800px;
+}
+
+.reasons-row-list {
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+
+  display: flex;
+}
+
+.reasons-row-item {
+  width: 400px;
+}
+
+.reasons-row:last-child {
+  margin-bottom: 55px;
+}
+
+
+.search-title {
+  margin-bottom: 35px;
+}
+
+.search-text {
+  margin-bottom: 55px;
 }
