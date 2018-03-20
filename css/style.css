@@ -186,10 +186,10 @@ input:-ms-input-placeholder {text-overflow:ellipsis;} */
   color: #000000;
 }
 
-.footer-social {
-  /*text-align: center;*/
+/*.footer-social {
+  text-align: center;
 }
-
+*/
 .footer-social ul {
   list-style: none;
 }
@@ -342,6 +342,27 @@ a.button-booking:active {
 
 /*-------------Сеточные стили---------------*/
 
-body {
 
+.page-wrapper {
+  padding: 0;
+  margin: 0 auto;
+
+  background-color: #ffffff;
+  width: 1200px;
+}
+
+.main-header {
+  margin-bottom: 0;
+}
+
+.intro-image {
+  margin-bottom: 65px;
+}
+
+.intro-reasons h2 {
+  margin-bottom: 35px;
+}
+
+.intro-reasons p {
+  margin-bottom: 56px;
 }
