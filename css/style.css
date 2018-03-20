@@ -415,3 +415,11 @@ html {
 .search-text {
   margin-bottom: 55px;
 }
+
+.main-footer {
+  padding-left: 72px;
+  padding-right: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
