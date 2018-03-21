@@ -452,6 +452,13 @@ html {
   display: flex;
   padding-left: 72px;
   padding-right: 72px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.result-hotel:last-of-type {
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .result-hotel-photo {
