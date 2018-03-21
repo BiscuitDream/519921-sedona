@@ -30,56 +30,60 @@
         <section class="filters">
           <!-- Здесь будет форма сортировки -->
           <form class="filters-form" action="https://echo.htmlacademy.ru" method="get">
-            <fieldset class="infrastructure">
-              <legend>Инфраструктура:</legend>
-              <ul class="infrastructure-list">
-                <li class="infrastructure-item">
-                  <input type="checkbox" id="ch-pool" name="pool" checked>
-                  <label for="ch-pool">Бассейн</label>
-                </li>
-                <li class="infrastructure-item">
-                  <input type="checkbox" id="ch-parking" name="parking">
-                  <label for="ch-parking">Парковка</label>
-                </li>
-                <li class="infrastructure-item">
-                  <input type="checkbox" id="ch-wifi" name="wifi">
-                  <label for="ch-wifi">Wi-fi</label>
-                </li>
-              </ul>
-            </fieldset>
-            <fieldset class="property-type">
-              <legend>Тип жилья:</legend>
-              <ul class="property-type-list">
-                <li class="property-type-item">
-                  <input type="checkbox" id="ch-hotel" name="hotel" checked>
-                  <label for="ch-hotel">Гостиницы</label>
-                </li>
-                <li class="property-type-item">
-                  <input type="checkbox" id="ch-motel" name="motel" checked>
-                  <label for="ch-motel">Мотель</label>
-                </li>
-                <li class="property-type-item">
-                  <input type="checkbox" id="ch-apartment" name="apartment" checked>
-                  <label for="ch-apartment">Апартаменты</label>
-                </li>
-              </ul>
-            </fieldset>
-            <fieldset class="cost">
-              <legend>Стоимость в сутки (Р):</legend>
-              <div class="cost-range">
-              <p class="star-cost">
-                <label for="star-cost">От</label>
-                <input type="text" id="star-cost" name="star-cost" value="0">
-              </p>
-              <p>
-                <label for="final-cost">До</label>
-                <input type="text" id="final-cost" name="final-cost" value="3000">
-              </p>
-              </div>
-              <label class="visually-hidden" for="range-cost">Диапозон стоимости</label>
-              <input class="input-range-cost" type="range" id="range-cost" name="range" min="0" max="4000">
-            </fieldset>
-            <button class="btn-filter" type="submit">Показать</button>
+            <div class="checkbox-wrapper">
+              <fieldset class="infrastructure">
+                <legend>Инфраструктура:</legend>
+                <ul class="infrastructure-list">
+                  <li class="infrastructure-item">
+                    <input type="checkbox" id="ch-pool" name="pool" checked>
+                    <label for="ch-pool">Бассейн</label>
+                  </li>
+                  <li class="infrastructure-item">
+                    <input type="checkbox" id="ch-parking" name="parking">
+                    <label for="ch-parking">Парковка</label>
+                  </li>
+                  <li class="infrastructure-item">
+                    <input type="checkbox" id="ch-wifi" name="wifi">
+                    <label for="ch-wifi">Wi-fi</label>
+                  </li>
+                </ul>
+              </fieldset>
+              <fieldset class="property-type">
+                <legend>Тип жилья:</legend>
+                <ul class="property-type-list">
+                  <li class="property-type-item">
+                    <input type="checkbox" id="ch-hotel" name="hotel" checked>
+                    <label for="ch-hotel">Гостиницы</label>
+                  </li>
+                  <li class="property-type-item">
+                    <input type="checkbox" id="ch-motel" name="motel" checked>
+                    <label for="ch-motel">Мотель</label>
+                  </li>
+                  <li class="property-type-item">
+                    <input type="checkbox" id="ch-apartment" name="apartment" checked>
+                    <label for="ch-apartment">Апартаменты</label>
+                  </li>
+                </ul>
+              </fieldset>
+            </div>
+            <div class="cost-wrapper">
+              <fieldset class="cost">
+                <legend>Стоимость в сутки (Р):</legend>
+                <div class="cost-range">
+                <p class="star-cost">
+                  <label for="star-cost">От</label>
+                  <input type="text" id="star-cost" name="star-cost" value="0">
+                </p>
+                <p>
+                  <label for="final-cost">До</label>
+                  <input type="text" id="final-cost" name="final-cost" value="3000">
+                </p>
+                </div>
+                <label class="visually-hidden" for="range-cost">Диапозон стоимости</label>
+                <input class="input-range-cost" type="range" id="range-cost" name="range" min="0" max="4000">
+              </fieldset>
+              <button class="btn-filter" type="submit">Показать</button>
+            </div>
           </form>
         </section>
 

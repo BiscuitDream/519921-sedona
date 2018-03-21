@@ -423,3 +423,21 @@ html {
   justify-content: space-between;
   align-items: center;
 }
+
+
+/*catalog*/
+
+.filters-form {
+  display: flex;
+  padding-left: 72px;
+}
+
+.checkbox-wrapper {
+  display: flex;
+  width: 600px;
+  align-items: center;
+}
+
+.checkbox-wrapper fieldset {
+  width: 240px;
+}
