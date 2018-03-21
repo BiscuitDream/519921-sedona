@@ -441,3 +441,23 @@ html {
 .checkbox-wrapper fieldset {
   width: 240px;
 }
+
+
+.hotels-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.result-hotel {
+  display: flex;
+  padding-left: 72px;
+  padding-right: 72px;
+}
+
+.result-hotel-photo {
+  margin-right: 30px;
+}
+
+.result-hotel-rating {
+  margin-left: auto;
+}
