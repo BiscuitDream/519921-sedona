@@ -40,14 +40,15 @@ input[type="radio"].visually-hidden {
   width: 1px;
   height: 1px;
   margin: -1px;
-  border: 0;
   padding: 0;
+  overflow: hidden;
 
   white-space: nowrap;
 
-  clip-path: inset(100%);
+  border: 0;
+
   clip: rect(0 0 0 0);
-  overflow: hidden;
+  clip-path: inset(100%);
 }
 
 .page-wrapper {
@@ -59,14 +60,16 @@ input[type="radio"].visually-hidden {
 }
 
 .main-header {
-  margin-bottom: 0;
   position: relative;
+
+  margin-bottom: 0;
 }
 
 .main-header-logo {
   position: absolute;
-  top: 0px;
+  top: 0;
   left: 50%;
+
   transform: translate(-50%);
 }
 
@@ -82,11 +85,11 @@ input[type="radio"].visually-hidden {
   justify-content: space-between;
   margin: 0;
   padding: 0;
-  padding-left: 72px;
   padding-right: 72px;
+  padding-left: 72px;
 
   list-style: none;
-
+  vertical-align: middle;
 }
 
 .site-navigation-item {
