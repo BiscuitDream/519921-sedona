@@ -37,6 +37,14 @@ a {
 
 .main-header {
   margin-bottom: 0;
+  position: relative;
+}
+
+.main-header-logo {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .main-navigation {
@@ -50,8 +58,27 @@ a {
   justify-content: space-between;
   margin: 0;
   padding: 0;
+  padding-left: 72px;
+  padding-right: 72px;
 
   list-style: none;
+
+}
+
+.site-navigation-item {
+  flex-basis: 20%;
+  padding-top: 22px;
+  padding-bottom: 17px;
+}
+
+.site-navigation-item:nth-child(1),
+.site-navigation-item:nth-child(2) {
+  text-align: left;
+}
+
+.site-navigation-item:nth-child(3),
+.site-navigation-item:nth-child(4) {
+  text-align: right;
 }
 
 .site-navigation a {
