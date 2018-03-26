@@ -232,6 +232,34 @@ input[type="radio"].visually-hidden {
 
 .reasons-row:nth-of-type(2) .reasons-row-item {
   padding-top: 160px;
+  position: relative;
+}
+.reasons-row:nth-of-type(2) .reasons-row-item::before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 50%;
+  top: 50px;
+  transform: translate(-50%);
+}
+
+.reasons-row:nth-of-type(2) .reasons-row-item:nth-child(1)::before {
+  background-image: url("../img/icon-1.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.reasons-row:nth-of-type(2) .reasons-row-item:nth-child(2)::before {
+  background-image: url("../img/icon-2.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.reasons-row:nth-of-type(2) .reasons-row-item:nth-child(3)::before {
+  background-image: url("../img/icon-3.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .reasons-row:nth-of-type(4) .reasons-row-item {
