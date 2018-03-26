@@ -159,9 +159,9 @@ input[type="radio"].visually-hidden {
 .reasons-row-cell {
   width: 400px;
   padding-top: 50px;
-  padding-left: 46px;
   padding-right: 46px;
   padding-bottom: 60px;
+  padding-left: 46px;
 
   color: #ffffff;
 
@@ -169,10 +169,11 @@ input[type="radio"].visually-hidden {
 }
 
 .reasons-row-cell h2 {
-  font-size: 21px;
   margin: 0;
   margin-bottom: 30px;
   padding: 0 50px;
+
+  font-size: 21px;
 }
 
 .reasons-row-cell-number {
@@ -213,14 +214,15 @@ input[type="radio"].visually-hidden {
 
 .reasons-row-item {
   width: 400px;
-  padding-left: 35px;
   padding-right: 35px;
+  padding-left: 35px;
 }
 
 .reasons-row-item-title {
+  margin: 0;
+
   font-size: 21px;
   color: #000000;
-  margin: 0;
 }
 
 /* .reasons-row:nth-of-type(2) .reasons-row-list {
@@ -260,8 +262,8 @@ input[type="radio"].visually-hidden {
 
 .search {
   padding-top: 55px;
-  padding-left: 72px;
   padding-right: 72px;
+  padding-left: 72px;
 }
 
 .search-title {
@@ -277,22 +279,20 @@ input[type="radio"].visually-hidden {
 .search-text {
   margin: 0;
   margin-bottom: 55px;
-  padding-left: 310px;
   padding-right: 310px;
+  padding-left: 310px;
 
   line-height: 24px;
 }
 
 .search-button {
   display: inline-block;
-
   padding: 30px 128px;
-
-  vertical-align: middle;
 
   font-weight: bold;
   font-size: 21px;
   line-height: 26px;
+  vertical-align: middle;
   color: #ffffff;
 
   background-color: #766357;
