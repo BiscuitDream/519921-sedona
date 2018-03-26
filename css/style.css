@@ -231,16 +231,19 @@ input[type="radio"].visually-hidden {
 } */
 
 .reasons-row:nth-of-type(2) .reasons-row-item {
-  padding-top: 160px;
   position: relative;
+
+  padding-top: 160px;
 }
 .reasons-row:nth-of-type(2) .reasons-row-item::before {
   content: "";
   position: absolute;
+  top: 50px;
+  left: 50%;
+
   width: 80px;
   height: 80px;
-  left: 50%;
-  top: 50px;
+
   transform: translate(-50%);
 }
 
@@ -530,11 +533,6 @@ input:-ms-input-placeholder {text-overflow:ellipsis;} */
   height: 41px;
 }
 
-
-/* .social-button:active path {
-  opacity: 0.3;
-} */
-
 .footer-htmlacademy-logo:hover path,
 .footer-htmlacademy-logo:focus path {
   fill: #81b3d2;
@@ -549,7 +547,7 @@ input:-ms-input-placeholder {text-overflow:ellipsis;} */
 }
 
 
-/*catalog.html*/
+/*------------catalog.html------------------------*/
 
 /*.container.inner-page {
   text-align: left;
