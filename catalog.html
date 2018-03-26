@@ -66,24 +66,39 @@
                 </ul>
               </fieldset>
             </div>
-            <div class="cost-wrapper">
+            <div class="filter-range">
+              <div class="filter-range-title">Стоимость в сутки (р):</div>
+              <div class="price-controls">
+                <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+                <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
+              </div>
+              <div class="range-controls">
+                <div class="scale">
+                  <div class="bar"></div>
+                </div>
+                <div class="range-toggle range-toggle-min"></div>
+                <div class="range-toggle range-toggle-max"></div>
+              </div>
+              <button class="btn-filter" type="submit">Показать</button>
+            </div>
+            <!-- <div class="cost-wrapper">
               <fieldset class="cost">
                 <legend>Стоимость в сутки (Р):</legend>
                 <div class="cost-range">
-                <p class="star-cost">
-                  <label for="star-cost">От</label>
-                  <input type="text" id="star-cost" name="star-cost" value="0">
-                </p>
-                <p>
-                  <label for="final-cost">До</label>
-                  <input type="text" id="final-cost" name="final-cost" value="3000">
-                </p>
+                  <p class="star-cost">
+                    <label for="star-cost">От</label>
+                    <input type="text" id="star-cost" name="star-cost" value="0">
+                  </p>
+                  <p>
+                    <label for="final-cost">До</label>
+                    <input type="text" id="final-cost" name="final-cost" value="3000">
+                  </p>
                 </div>
                 <label class="visually-hidden" for="range-cost">Диапозон стоимости</label>
                 <input class="input-range-cost" type="range" id="range-cost" name="range" min="0" max="4000">
               </fieldset>
               <button class="btn-filter" type="submit">Показать</button>
-            </div>
+            </div> -->
           </form>
         </section>
 
