@@ -530,6 +530,20 @@ input:-ms-input-placeholder {text-overflow:ellipsis;} */
   height: 41px;
 }
 
+
+/* .social-button:active path {
+  opacity: 0.3;
+} */
+
+.footer-htmlacademy-logo:hover path,
+.footer-htmlacademy-logo:focus path {
+  fill: #81b3d2;
+}
+
+.footer-htmlacademy-logo:active path {
+  fill: #bdbbbc;
+}
+
 .footer-copyright span {
   line-height: 26px;
 }
