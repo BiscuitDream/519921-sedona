@@ -153,8 +153,6 @@ input[type="radio"].visually-hidden {
 }
 
 .reasons-row:last-child {
-  margin-bottom: 55px;
-
   background-color: #eeeeee;
 }
 
@@ -260,7 +258,14 @@ input[type="radio"].visually-hidden {
   margin-bottom: 30px;
 }
 
+.search {
+  padding-top: 55px;
+  padding-left: 72px;
+  padding-right: 72px;
+}
+
 .search-title {
+  margin: 0;
   margin-bottom: 35px;
   /*.search h2 {}*/
 
@@ -270,13 +275,21 @@ input[type="radio"].visually-hidden {
 }
 
 .search-text {
+  margin: 0;
   margin-bottom: 55px;
-  /*.search p {}*/
+  padding-left: 310px;
+  padding-right: 310px;
 
   line-height: 24px;
 }
 
 .search-button {
+  display: inline-block;
+
+  padding: 30px 128px;
+
+  vertical-align: middle;
+
   font-weight: bold;
   font-size: 21px;
   line-height: 26px;
