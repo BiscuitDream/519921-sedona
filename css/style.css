@@ -414,6 +414,13 @@ input:-ms-input-placeholder {text-overflow:ellipsis;} */
   background-color: #5496bd;
 }
 
+.map {
+  height: 473px;
+  background-image: url("../img/map.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
 .main-footer {
   display: flex;
   justify-content: space-between;
