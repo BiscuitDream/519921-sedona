@@ -561,7 +561,9 @@ input:-ms-input-placeholder {text-overflow:ellipsis;} */
 .filters-form {
   display: flex;
   justify-content: space-between;
+  padding-top: 32px;
   padding-right: 72px;
+  padding-bottom: 32px;
   padding-left: 72px;
 
   color: #ffffff;
@@ -572,8 +574,9 @@ input:-ms-input-placeholder {text-overflow:ellipsis;} */
 
 .checkbox-wrapper {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  width: 600px;
+  width: 528px;
 }
 
 .checkbox-wrapper fieldset {
@@ -592,6 +595,7 @@ input:-ms-input-placeholder {text-overflow:ellipsis;} */
 .filters-form ul {
   list-style: none;
 }
+
 
 
 
@@ -745,18 +749,47 @@ input:-ms-input-placeholder {text-overflow:ellipsis;} */
 
 
 
-.result-sort h3 {
+
+
+
+
+.result-sort {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 35px 72px;
+}
+
+.result-sort-match {
+  margin: 0;
+  margin-right: 50px;
+
   font-size: 21px;
   line-height: 26px;
 }
 
-.result-sort ul {
+/* .result-sort-list {
   list-style: none;
-}
-
-.result-sort-menu {
   font-size: 12px;
   line-height: 18px;
+} */
+
+.result-sort-menu {
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.result-sort-menu li:first-child {
+  margin-right: 40px;
+}
+
+.result-sort-menu li {
+  margin-right: 30px;
 }
 
 .result-sort-menu a {
@@ -781,6 +814,43 @@ input:-ms-input-placeholder {text-overflow:ellipsis;} */
   color: #000000;
 
   border-bottom: none;
+}
+
+.result-sort-control {
+  margin: 0;
+  margin-left: auto;
+  padding: 0;
+
+  list-style: none;
+}
+
+.arrow-up,
+.arrow-down {
+  /* position: relative; */
+  display: inline-block;
+  /* background-color: black; */
+  width: 11px;
+  height: 10px;
+}
+
+.arrow-up {
+  background-image: url("../img/icon-up-dir.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.arrow-up path {
+  fill: #cacaca;
+}
+
+.arrow-down {
+  background-image: url("../img/icon-down-dir.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.arrow-down path {
+  fill: #81b3d2;
 }
 
 .hotels-wrapper {
