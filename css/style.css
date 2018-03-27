@@ -876,6 +876,16 @@ input:-ms-input-placeholder {text-overflow:ellipsis;} */
   margin-right: 30px;
 }
 
+.result-hotel-info {
+  text-align: start;
+}
+
+.result-hotel-info-title {
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 0;
+}
+
 .result-hotel-info-title a {
   font-size: 21px;
   line-height: 26px;
@@ -891,12 +901,32 @@ input:-ms-input-placeholder {text-overflow:ellipsis;} */
   color: rgb(0, 0, 0, 0.3);
 }
 
+.result-hotel-info-text span {
+  display: inline-block;
+}
+
+.result-hotel-info-text span:first-child {
+  width: 110px;
+}
+
+.result-hotel-info-text span:last-child {
+  width: 142px;
+}
+
 a.result-hotel-button {
+  display: inline-block;
+  height: 27px;
+  padding: 3px 0;
+
   font-weight: bold;
+  vertical-align: bottom;
+  text-align: center;
   color: #ffffff;
 }
 
 a.button-more {
+  width: 110px;
+
   background-color: #81b3d2;
 }
 
@@ -911,6 +941,8 @@ a.button-more:active {
 }
 
 a.button-booking {
+  width: 142px;
+
   background-color: #766357;
 }
 
@@ -926,15 +958,42 @@ a.button-booking:active {
 }
 
 .result-hotel-rating {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   margin-left: auto;
+
+  text-align: right;
 }
 
-.result-hotel-rating ul {
+.result-hotel-rating-stars ul {
+  margin: 0;
+  padding: 0;
+
   list-style: none;
+}
+
+.result-hotel-rating-stars li {
+  display: inline-block;
+  width: 18px;
+  height: 17px;
+
+  background-image: url("../img/star.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.result-hotel-rating-value {
+  width: 110px;
+  height: 27px;
+  padding: 3px 0;
+
+  vertical-align: middle;
+  text-align: center;
+
+  background-color: #f2f2f2;
 }
 
 .result-hotel-rating-value span {
   color: #666666;
-
-  background-color: #f2f2f2;
 }
