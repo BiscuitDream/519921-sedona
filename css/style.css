@@ -510,7 +510,8 @@ input:-ms-input-placeholder {text-overflow:ellipsis;} */
 }
 
 .map {
-  height: 473px;
+  min-height: 593px;
+  margin-bottom: -118px;
 
   background-image: url("../img/map.png");
   background-repeat: no-repeat;
@@ -682,18 +683,22 @@ input:-ms-input-placeholder {text-overflow:ellipsis;} */
 
 input[type="checkbox"] + label {
   position: relative;
+
   padding-left: 40px;
+
   cursor: pointer;
 }
 
 input[type="checkbox"] + label::before {
   content: "";
   position: absolute;
+  left: 0;
+
   width: 27px;
   height: 23px;
+
   background-image: url("../img/checkbox-off.svg");
   background-repeat: no-repeat;
-  left: 0;
 }
 
 input[type="checkbox"]:checked + label::before {
