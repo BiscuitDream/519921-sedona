@@ -682,7 +682,7 @@ input:-ms-input-placeholder {text-overflow:ellipsis;} */
   display: none;
 }
 
-input[type="checkbox"] + label {
+.checkbox-wrapper input[type="checkbox"] + label {
   position: relative;
 
   padding-left: 40px;
@@ -690,7 +690,7 @@ input[type="checkbox"] + label {
   cursor: pointer;
 }
 
-input[type="checkbox"] + label::before {
+.checkbox-wrapper input[type="checkbox"] + label::before {
   content: "";
   position: absolute;
   left: 0;
@@ -702,7 +702,7 @@ input[type="checkbox"] + label::before {
   background-repeat: no-repeat;
 }
 
-input[type="checkbox"]:checked + label::before {
+.checkbox-wrapper input[type="checkbox"]:checked + label::before {
   background-image: url("../img/checkbox-on.svg");
   background-repeat: no-repeat;
 }
