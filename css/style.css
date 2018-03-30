@@ -677,11 +677,6 @@ input:-ms-input-placeholder {text-overflow:ellipsis;} */
   margin-bottom: 0;
 }
 
-
-.checkbox-wrapper input[type="checkbox"] {
-  display: none;
-}
-
 .checkbox-wrapper input[type="checkbox"] + label {
   position: relative;
 
@@ -705,6 +700,11 @@ input:-ms-input-placeholder {text-overflow:ellipsis;} */
 .checkbox-wrapper input[type="checkbox"]:checked + label::before {
   background-image: url("../img/checkbox-on.svg");
   background-repeat: no-repeat;
+}
+
+.checkbox-wrapper input[type="checkbox"]:focus + label::before {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
 }
 
 
