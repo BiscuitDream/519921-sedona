@@ -689,28 +689,29 @@ input[type="radio"].visually-hidden {
 .filters-form {
   display: flex;
   justify-content: space-between;
-  padding-top: 32px;
+  padding-top: 27px;
   padding-right: 72px;
   padding-bottom: 32px;
   padding-left: 72px;
+  text-align: left;
 
   color: #ffffff;
 
   background-color: #688094;
   background-image: url("../img/filter-background.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 -48px;
 }
 
-.checkbox-wrapper {
+/* .checkbox-wrapper {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
+  align-items: center;
   width: 528px;
-
   text-align: left;
-}
+} */
 
-.checkbox-wrapper fieldset {
-  width: 240px;
+.filters-form fieldset {
   margin: 0;
   padding: 0;
 
@@ -722,7 +723,7 @@ input[type="radio"].visually-hidden {
 } */
 
 .filters-form legend {
-  margin-bottom: 30px;
+  margin-bottom: 24px;
 
   font-weight: bold;
   font-size: 16px;
@@ -740,12 +741,17 @@ input[type="radio"].visually-hidden {
   margin-bottom: 25px;
 }
 
+.filters-form .property-type {
+  margin-left: 120px;
+  margin-right: auto;
+}
+
 .infrastructure-item:last-child,
 .property-type-item:last-child {
   margin-bottom: 0;
 }
 
-.checkbox-wrapper input[type="checkbox"] + label {
+.filters-form input[type="checkbox"] + label {
   position: relative;
 
   padding-left: 40px;
@@ -753,7 +759,7 @@ input[type="radio"].visually-hidden {
   cursor: pointer;
 }
 
-.checkbox-wrapper input[type="checkbox"] + label::before {
+.filters-form input[type="checkbox"] + label::before {
   content: "";
   position: absolute;
   left: 0;
@@ -765,26 +771,26 @@ input[type="radio"].visually-hidden {
   background-repeat: no-repeat;
 }
 
-.checkbox-wrapper input[type="checkbox"]:checked + label::before {
+.filters-form input[type="checkbox"]:checked + label::before {
   background-image: url("../img/checkbox-on.svg");
   background-repeat: no-repeat;
 }
 
-.checkbox-wrapper input[type="checkbox"]:focus + label::before {
+.filters-form input[type="checkbox"]:focus + label::before {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
 }
 
-.checkbox-wrapper input[type="checkbox"]:disabled + label {
+.filters-form input[type="checkbox"]:disabled + label {
   cursor: default;
 }
 
-.checkbox-wrapper input[type="checkbox"]:disabled + label::before {
+.filters-form input[type="checkbox"]:disabled + label::before {
   background-image: url("../img/checkbox-off-disabled.svg");
   background-repeat: no-repeat;
 }
 
-.checkbox-wrapper input[type="checkbox"]:checked:disabled + label::before {
+.filters-form input[type="checkbox"]:checked:disabled + label::before {
   background-image: url("../img/checkbox-on-disabled.svg");
   background-repeat: no-repeat;
 }
@@ -797,18 +803,12 @@ input[type="radio"].visually-hidden {
 
 
 .filter-range {
-  box-sizing: content-box;
-  width: 330px;
-
+  box-sizing: border-box;
   text-align: left;
-  /* margin: 50px auto; для демо */
-
-  /* color: #ffffff; */
-  /* text-transform: uppercase; */
 }
 
 .filter-range-title {
-  margin-bottom: 9px;
+  margin-bottom: 10px;
 
   font-weight: 600;
   font-size: 16px;
@@ -844,7 +844,7 @@ input[type="radio"].visually-hidden {
   display: inline-block;
 
   font-size: 14px;
-  line-height: 38px;
+  line-height: 32px;
   vertical-align: top;
 
   cursor: pointer;
@@ -852,8 +852,8 @@ input[type="radio"].visually-hidden {
 
 .price-controls .min-price,
 .price-controls .max-price {
-  width: 90px;
-  padding-left: 65px;
+  width: 157px;
+  padding-left: 60px;
 }
 
 .price-controls input {
@@ -891,8 +891,8 @@ input[type="radio"].visually-hidden {
   position: absolute;
   top: -9px;
 
-  width: 4px;
-  height: 4px;
+  width: 20px;
+  height: 20px;
 
   background: #ababab;
   border: 8px solid #ffffff;
@@ -916,12 +916,12 @@ input[type="radio"].visually-hidden {
 
 .btn-filter {
   display: block;
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  margin-left: 84px;
   padding: 6px 35px;
 
   font: inherit;
-  /* font-size: 14px; */
-  /* line-height: 20px; */
+  line-height: 20px;
   color: #ffffff;
   text-transform: uppercase;
 
