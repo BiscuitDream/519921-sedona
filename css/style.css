@@ -421,27 +421,26 @@ input[type="radio"].visually-hidden {
   outline: none;
 }
 
-/* .search-form input::-webkit-input-placeholder,
 .search-form input::placeholder {
   color: #000000;
 
   opacity: 1;
-} */
+}
 
-::-webkit-input-placeholder {
+.search-form input::-webkit-input-placeholder {
   color: #000000;
 }
-::-moz-placeholder {
-  color: #000000;
-
-  opacity: 1;
-}
-:-moz-placeholder {
+.search-form input::-moz-placeholder {
   color: #000000;
 
   opacity: 1;
 }
-:-ms-input-placeholder {
+.search-form input:-moz-placeholder {
+  color: #000000;
+
+  opacity: 1;
+}
+.search-form input:-ms-input-placeholder {
   color: #000000;
 }
 
