@@ -646,7 +646,9 @@ input:-ms-input-placeholder {text-overflow:ellipsis;} */
 }*/
 
 
-.site-navigation-current a {
+.site-navigation-current a,
+.site-navigation-current a:hover,
+.site-navigation-current a:active {
   color: #766357;
 }
 
