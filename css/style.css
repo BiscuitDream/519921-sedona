@@ -421,22 +421,29 @@ input[type="radio"].visually-hidden {
   outline: none;
 }
 
+/* .search-form input::-webkit-input-placeholder,
 .search-form input::placeholder {
-  /*.search-item input::-webkit-input-placeholder,
-.search-item input::-moz-placeholder,
-.search-item input:-moz-placeholder,
-.search-item input::-ms-input-placeholder,
-.search-item input:-ms-input-placeholder {*/
+  color: #000000;
+
+  opacity: 1;
+} */
+
+::-webkit-input-placeholder {
+  color: #000000;
+}
+::-moz-placeholder {
   color: #000000;
 
   opacity: 1;
 }
+:-moz-placeholder {
+  color: #000000;
 
-/*input::-webkit-input-placeholder
-input[placeholder]          {text-overflow:ellipsis;}
-input::-moz-placeholder     {text-overflow:ellipsis;}
-input:-moz-placeholder      {text-overflow:ellipsis;}
-input:-ms-input-placeholder {text-overflow:ellipsis;} */
+  opacity: 1;
+}
+:-ms-input-placeholder {
+  color: #000000;
+}
 
 .search-item .input-calendar {
   position: absolute;
