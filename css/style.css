@@ -158,6 +158,10 @@ input[type="radio"].visually-hidden {
   display: flex;
 }
 
+.reasons-row:first-child p {
+  width: 260px;
+}
+
 .reasons-row:last-child {
   background-color: #eeeeee;
 }
@@ -1036,10 +1040,10 @@ input[type="radio"].visually-hidden {
 }
 
 .arrow-down {
-  margin-right: 0;;
+  margin-right: 0;
 
   border-bottom-color: #81b3d2;
-  transform: rotate(180deg);
+  transform: rotate(180deg);;
 }
 
 [class^="arrow"]:hover,
