@@ -442,12 +442,13 @@ input:-ms-input-placeholder {text-overflow:ellipsis;} */
 
 .search-item .input-calendar::before {
   content: "";
-  display: block;
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
+
+  display: block;
 }
 
 .input-calendar path {
@@ -565,6 +566,7 @@ input:-ms-input-placeholder {text-overflow:ellipsis;} */
 
 .social-button {
   position: relative;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -576,12 +578,13 @@ input:-ms-input-placeholder {text-overflow:ellipsis;} */
 
 .social-button::before {
   content: "";
-  display: block;
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
+
+  display: block;
 }
 
 .social-button:hover,
@@ -606,6 +609,7 @@ input:-ms-input-placeholder {text-overflow:ellipsis;} */
 
 .footer-copyright a {
   position: relative;
+
   width: 115px;
   height: 41px;
 }
@@ -625,12 +629,13 @@ input:-ms-input-placeholder {text-overflow:ellipsis;} */
 
 .footer-copyright a:before {
   content: "";
-  display: block;
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
+
+  display: block;
 }
 
 
