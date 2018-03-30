@@ -207,7 +207,7 @@ input[type="radio"].visually-hidden {
 .reasons-row:nth-of-type(3) .reasons-row-double-cell {
   background-image: url("../img/devils-bridge-full.jpg");
   background-repeat: no-repeat;
-  background-position: 0 0;
+  background-position: 0 -76px;
 }
 
 .reasons-row-list {
