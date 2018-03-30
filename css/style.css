@@ -693,8 +693,8 @@ input[type="radio"].visually-hidden {
   padding-right: 72px;
   padding-bottom: 32px;
   padding-left: 72px;
-  text-align: left;
 
+  text-align: left;
   color: #ffffff;
 
   background-color: #688094;
@@ -742,8 +742,8 @@ input[type="radio"].visually-hidden {
 }
 
 .filters-form .property-type {
-  margin-left: 120px;
   margin-right: auto;
+  margin-left: 120px;
 }
 
 .infrastructure-item:last-child,
@@ -804,6 +804,7 @@ input[type="radio"].visually-hidden {
 
 .filter-range {
   box-sizing: border-box;
+
   text-align: left;
 }
 
@@ -861,8 +862,8 @@ input[type="radio"].visually-hidden {
   margin: 0;
 
   font: inherit;
-  color: inherit;
   line-height: 21px;
+  color: inherit;
 
   background: none;
   border: none;
@@ -952,9 +953,9 @@ input[type="radio"].visually-hidden {
   display: flex;
   align-items: center;
   padding-top: 31px;
+  padding-right: 72px;
   padding-bottom: 29px;
   padding-left: 72px;
-  padding-right: 72px;
 }
 
 .result-sort-match {
@@ -1035,9 +1036,10 @@ input[type="radio"].visually-hidden {
 }
 
 .arrow-down {
+  margin-right: 0;;
+
   border-bottom-color: #81b3d2;
   transform: rotate(180deg);
-  margin-right: 0
 }
 
 [class^="arrow"]:hover,
@@ -1086,6 +1088,7 @@ input[type="radio"].visually-hidden {
 
 .result-hotel-info-title a {
   padding-left: 2px;
+
   font-size: 21px;
   line-height: 26px;
   color: #000000;
@@ -1186,10 +1189,10 @@ a.button-booking:active {
 }
 
 .result-hotel-rating-stars li {
-  margin-left: 2px;
   display: inline-block;
   width: 18px;
   height: 17px;
+  margin-left: 2px;
 
   background-image: url("../img/star.svg");
   background-repeat: no-repeat;
