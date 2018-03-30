@@ -707,6 +707,21 @@ input:-ms-input-placeholder {text-overflow:ellipsis;} */
   outline: 5px auto -webkit-focus-ring-color;
 }
 
+.checkbox-wrapper input[type="checkbox"]:disabled + label {
+  cursor: default;
+}
+
+.checkbox-wrapper input[type="checkbox"]:disabled + label::before {
+  background-image: url("../img/checkbox-off-disabled.svg");
+  background-repeat: no-repeat;
+}
+
+.checkbox-wrapper input[type="checkbox"]:checked:disabled + label::before {
+  background-image: url("../img/checkbox-on-disabled.svg");
+  background-repeat: no-repeat;
+}
+
+
 
 
 
