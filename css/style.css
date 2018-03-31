@@ -827,10 +827,14 @@ input[type="radio"].visually-hidden {
   cursor: pointer;
 }
 
-.price-controls .min-price,
+.price-controls .min-price {
+  width: 157px;
+  padding-left: 64px;
+}
+
 .price-controls .max-price {
   width: 157px;
-  padding-left: 60px;
+  padding-left: 55px;
 }
 
 .price-controls input {
@@ -1019,7 +1023,7 @@ input[type="radio"].visually-hidden {
   display: flex;
   padding-top: 26px;
   padding-right: 72px;
-  padding-bottom: 28px;
+  padding-bottom: 29px;
   padding-left: 72px;
 
   border-top: 1px solid #e5e5e5;
@@ -1030,7 +1034,13 @@ input[type="radio"].visually-hidden {
 }
 
 .result-hotel-photo {
+  align-self: flex-start;
+  margin: 0;
   margin-right: 30px;
+  padding: 0;
+  padding-top: 5px;
+
+  line-height: 0;
 }
 
 .result-hotel-info {
@@ -1063,7 +1073,7 @@ input[type="radio"].visually-hidden {
 .result-hotel-info-text {
   display: flex;
   justify-content: space-between;
-  width: 260px;
+  width: 259px;
   margin-bottom: 13px;
 }
 
