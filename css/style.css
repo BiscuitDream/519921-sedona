@@ -1002,7 +1002,7 @@ input[type="radio"].visually-hidden {
 
   border-bottom-color: #81b3d2;
   -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);;
+          transform: rotate(180deg);
 }
 
 [class^="arrow"]:hover,
