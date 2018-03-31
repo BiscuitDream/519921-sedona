@@ -409,7 +409,7 @@ input[type="radio"].visually-hidden {
   height: 38px;
   margin-left: auto;
   padding-right: 30px;
-  padding-left: 10px;
+  padding-left: 12px;
 }
 
 .search-form input:hover {
