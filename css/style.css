@@ -390,8 +390,8 @@ input[type="radio"].visually-hidden {
 }
 
 .search-item:nth-of-type(3) label[for="search-children"] {
-  padding-left: 50px;
   margin-left: auto;
+  padding-left: 50px;
 }
 
 .search-item input {
@@ -484,13 +484,14 @@ input[type="radio"].visually-hidden {
 }
 
 .search-item input[type="number"] {
-  -moz-appearance:textfield;
+  -moz-appearance: textfield;
 }
 
 .search-item input[type=number]::-webkit-inner-spin-button,
 .search-item input[type=number]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
   margin: 0;
+
+  -webkit-appearance: none;
 }
 
 .btn-search-item {
@@ -564,32 +565,33 @@ input[type="radio"].visually-hidden {
   justify-content: space-between;
   align-items: center;
   padding-top: 35px;
-  padding-right: 72px;
   padding-bottom: 35px;
-  padding-left: 72px;
 
   background-color: rgba(255, 255, 255, 0.9);
   opacity: 0.9999;
 }
 
+.main-footer div {
+  width: 33.333%;
+
+  text-align: center;
+}
+
 .footer-visitus {
-  margin-left: 60px;
   font-weight: bold;
   font-size: 21px;
   line-height: 26px;
   color: #000000;
 }
 
-.footer-social {
-  margin-left: 28px;
-}
-
-.footer-social ul {
+.footer-social-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 150px;
   margin: 0;
+  margin-right: auto;
+  margin-left: auto;
   padding: 0;
 
   list-style: none;
@@ -633,9 +635,8 @@ input[type="radio"].visually-hidden {
 
 .footer-copyright {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  margin-right: 30px;
 }
 
 .footer-copyright a {
@@ -655,9 +656,8 @@ input[type="radio"].visually-hidden {
 }
 
 .footer-copyright span {
-  margin-right: 7px;
-
   line-height: 26px;
+  margin-right: 10px;
 }
 
 .footer-copyright a:before {
