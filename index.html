@@ -184,7 +184,10 @@
       });
 
       modalForm.addEventListener("submit", function (evt) {
-        evt.preventDefault();
+        if (!arrival.value || !departure.value || !adults.value || !children.value) {
+          evt.preventDefault();
+          console.log("Нужно ввести данные в форму");
+        }
       });
     </script>
   </body>
