@@ -5,7 +5,7 @@
     <title>HTML Academy: Седона</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/style.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <div class="page-wrapper">
@@ -104,7 +104,7 @@
         <section class="search">
           <h2 class="search-title">Заинтересовались?</h2>
           <p class="search-text">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-          <a class="search-button" href="#">Поиск гостиницы в Седоне</a>
+          <a class="modal-button" href="#">Поиск гостиницы в Седоне</a>
           <div class="modal modal-search">
             <!-- Здесь форма поиска -->
             <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
@@ -168,5 +168,15 @@
         </div>
       </footer>
     </div>
+    <!-- Скрипт JS -->
+    <script>
+      var toggleButton = document.querySelector(".modal-button");
+      var modalForm = document.querySelector(".modal-search");
+
+      toggleButton.addEventListener("click", function (evt) {
+        evt.preventDefault();
+        modalForm.classList.toggle("modal-show");
+      });
+    </script>
   </body>
 </html>

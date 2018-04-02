@@ -326,7 +326,7 @@ input[type="radio"].visually-hidden {
   line-height: 24px;
 }
 
-.search-button {
+.modal-button {
   display: block;
   width: 568px;
   margin: 0 auto;
@@ -340,15 +340,23 @@ input[type="radio"].visually-hidden {
   background-color: #766357;
 }
 
-.search-button:hover,
-.search-button:focus {
+.modal-button:hover,
+.modal-button:focus {
   background-color: #604e43;
 }
 
-.search-button:active {
+.modal-button:active {
   color: rgba(255, 255, 255, 0.3);
 
   background-color: #503e33;
+}
+
+.modal-search {
+  display: none;
+}
+
+.modal-show {
+  display: block;
 }
 
 .search-form {
