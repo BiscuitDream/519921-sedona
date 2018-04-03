@@ -161,8 +161,10 @@ input[type="radio"].visually-hidden {
   display: flex;
 }
 
-.reasons-row:first-child p {
-  width: 260px;
+.reasons-row:first-of-type p {
+  width: 290px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .reasons-row:last-child {
