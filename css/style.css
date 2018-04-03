@@ -203,11 +203,12 @@ input[type="radio"].visually-hidden {
 
 .reasons-row-double-cell {
   width: 800px;
+  line-height: 0;
 
-  background-color: #816d65;
+  background-color: #97967f;
 }
 
-.reasons-row:nth-of-type(1) .reasons-row-double-cell {
+/* .reasons-row:nth-of-type(1) .reasons-row-double-cell {
   background-color: #97967f;
   background-image: url("../img/open-range-full.jpg");
   background-repeat: no-repeat;
@@ -219,7 +220,7 @@ input[type="radio"].visually-hidden {
   background-image: url("../img/devils-bridge-full.jpg");
   background-repeat: no-repeat;
   background-position: 0 -76px;
-}
+} */
 
 .reasons-row-list {
   display: flex;
