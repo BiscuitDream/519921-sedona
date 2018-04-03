@@ -203,6 +203,7 @@ input[type="radio"].visually-hidden {
 
 .reasons-row-double-cell {
   width: 800px;
+
   line-height: 0;
 
   background-color: #97967f;
@@ -670,15 +671,46 @@ input[type="radio"].visually-hidden {
   background-color: #81b3d2;
 }
 
-.social-button::before {
+.soc-twitter::before {
   content: "";
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  top: 50%;
+  left: 50%;
 
-  display: block;
+  width: 17px;
+  height: 15px;
+
+  background-image: url("../img/twitter.svg");
+  background-repeat: no-repeat;
+  transform: translate(-50%, -50%);
+}
+
+.soc-facebook::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  width: 12px;
+  height: 22px;
+
+  background-image: url("../img/fb-icon.svg");
+  background-repeat: no-repeat;
+  transform: translate(-50%, -50%);
+}
+
+.soc-youtube::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  width: 20px;
+  height: 16px;
+
+  background-image: url("../img/youtube.svg");
+  background-repeat: no-repeat;
+  transform: translate(-50%, -50%);
 }
 
 .social-button:hover,
@@ -690,7 +722,7 @@ input[type="radio"].visually-hidden {
   background-color: #5496bd;
 }
 
-.social-button:active path {
+.social-button:active::before {
   opacity: 0.3;
 }
 
