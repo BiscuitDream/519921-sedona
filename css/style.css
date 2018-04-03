@@ -1196,11 +1196,40 @@ a.button-booking:active {
   flex-direction: column;
   justify-content: space-between;
   margin-left: auto;
+  padding-top: 3px;
 
   text-align: right;
 }
 
-.result-hotel-rating-stars ul {
+.result-hotel-rating-stars {
+  align-self: flex-end;
+  height: 17px;
+
+  background-image: url("../img/star.svg");
+  background-size: 24px 17px;
+}
+
+.four-stars {
+  width: 93px;
+}
+
+.three-stars {
+  width: 70px;
+}
+
+.two-stars {
+  width: 46px;
+}
+
+.one-stars {
+  width: 18px;
+}
+
+.five-stars {
+  width: 90px;
+}
+
+/* .result-hotel-rating-stars ul {
   margin: 0;
   padding: 0;
   padding-top: 3px;
@@ -1219,7 +1248,7 @@ a.button-booking:active {
   background-image: url("../img/star.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
-}
+} */
 
 .result-hotel-rating-value {
   width: 110px;
