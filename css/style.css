@@ -308,11 +308,12 @@ input[type="radio"].visually-hidden {
 .search {
   position: relative;
   z-index: 3;
-  background-color: #ffffff;
 
   padding-top: 49px;
   padding-right: 72px;
   padding-left: 72px;
+
+  background-color: #ffffff;
 }
 
 .search-title {
@@ -391,9 +392,10 @@ input[type="radio"].visually-hidden {
 }
 
 .modal-search {
-  display: none;
   position: relative;
   z-index: 1;
+
+  display: none;
 }
 
 .modal-show {
