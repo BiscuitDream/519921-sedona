@@ -152,6 +152,11 @@ input[type="radio"].visually-hidden {
   line-height: 26px;
 }
 
+.reasons {
+  position: relative;
+  z-index: 2;
+}
+
 .reasons-row {
   display: flex;
 }
@@ -302,6 +307,8 @@ input[type="radio"].visually-hidden {
 
 .search {
   position: relative;
+  z-index: 3;
+  background-color: #ffffff;
 
   padding-top: 49px;
   padding-right: 72px;
@@ -361,16 +368,6 @@ input[type="radio"].visually-hidden {
   }
 }
 
-@keyframes slideOutUp {
-  from {
-    transform: translateY(0);
-  }
-
-  to {
-    transform: translateY(-400px);
-  }
-}
-
 @keyframes shake {
   0%,
   100% {
@@ -395,11 +392,8 @@ input[type="radio"].visually-hidden {
 
 .modal-search {
   display: none;
-}
-
-.modal-close {
-  animation: slideOutUp;
-  animation-duration: 0.6s;
+  position: relative;
+  z-index: 1;
 }
 
 .modal-show {

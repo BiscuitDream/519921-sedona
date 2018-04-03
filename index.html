@@ -105,6 +105,7 @@
           <h2 class="search-title">Заинтересовались?</h2>
           <p class="search-text">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
           <a class="modal-button" href="#">Поиск гостиницы в Седоне</a>
+        </section>
           <div class="modal modal-search">
             <!-- Здесь форма поиска -->
             <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
@@ -135,7 +136,7 @@
               <button class="btn-search" type="submit">Найти</button>
             </form>
           </div>
-        </section>
+
         <!-- Карта -->
         <section class="map">
           <h2 class="visually-hidden">Карта Седоны</h2>
@@ -196,7 +197,6 @@
           modalSearch.classList.remove("modal-error");
         }
         modalSearch.classList.toggle("modal-show");
-        // modalSearch.classList.toggle("modal-close");
         if (storageAdults) {
           adults.value = storageAdults;
         }
