@@ -192,9 +192,11 @@
 
       toggleButton.addEventListener("click", function (evt) {
         evt.preventDefault();
-        modalSearch.classList.remove("modal-error");
+        if (modalSearch.classList.contains("modal-error")) {
+          modalSearch.classList.remove("modal-error");
+        }
         modalSearch.classList.toggle("modal-show");
-        modalSearch.classList.toggle("modal-close");
+        // modalSearch.classList.toggle("modal-close");
         if (storageAdults) {
           adults.value = storageAdults;
         }
