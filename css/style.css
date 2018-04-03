@@ -1098,8 +1098,7 @@ input[type="radio"].visually-hidden {
           transform: rotate(180deg);
 }
 
-[class^="arrow"]:hover,
-[class^="arrow"]:focus {
+[class^="arrow"]:hover {
   border-bottom-color: #231f20;
 }
 
