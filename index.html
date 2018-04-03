@@ -194,6 +194,7 @@
         evt.preventDefault();
         modalSearch.classList.remove("modal-error");
         modalSearch.classList.toggle("modal-show");
+        modalSearch.classList.toggle("modal-close");
         if (storageAdults) {
           adults.value = storageAdults;
         }
