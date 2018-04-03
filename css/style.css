@@ -59,7 +59,7 @@ input[type="radio"].visually-hidden {
   padding: 0;
 
   background-color: #ffffff;
-  box-shadow: 6px 0 4px -6px #222222, -6px 0 4px -6px #222222;
+  box-shadow: 6px 0 15px -10px #222222, -6px 0 15px -10px #222222;
 }
 
 .main-header {
