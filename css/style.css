@@ -365,20 +365,35 @@ input[type="radio"].visually-hidden {
   background-color: #503e33;
 }
 
-@keyframes slideInDown {
+@-webkit-keyframes slideInDown {
   from {
-    transform: translateY(-400px);
+    -webkit-transform: translateY(-400px);
+            transform: translateY(-400px);
   }
 
   to {
-    transform: translateY(0);
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
 }
 
-@keyframes shake {
+@keyframes slideInDown {
+  from {
+    -webkit-transform: translateY(-400px);
+            transform: translateY(-400px);
+  }
+
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes shake {
   0%,
   100% {
-    transform: translateX(0);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
 
   10%,
@@ -386,14 +401,41 @@ input[type="radio"].visually-hidden {
   50%,
   70%,
   90% {
-    transform: translateX(-10px);
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
   }
 
   20%,
   40%,
   60%,
   80% {
-    transform: translateX(10px);
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
+  }
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
   }
 }
 
@@ -407,12 +449,16 @@ input[type="radio"].visually-hidden {
 .modal-show {
   display: block;
 
-  animation: slideInDown;
-  animation-duration: 0.6s;
+  -webkit-animation: slideInDown;
+
+          animation: slideInDown;
+  -webkit-animation-duration: 0.6s;
+          animation-duration: 0.6s;
 }
 
 .modal-error {
-  animation: shake 0.6s;
+  -webkit-animation: shake 0.6s;
+          animation: shake 0.6s;
 }
 
 .search-form {
@@ -684,7 +730,8 @@ input[type="radio"].visually-hidden {
 
   background-image: url("../img/twitter.svg");
   background-repeat: no-repeat;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .soc-facebook::before {
@@ -698,7 +745,8 @@ input[type="radio"].visually-hidden {
 
   background-image: url("../img/fb-icon.svg");
   background-repeat: no-repeat;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .soc-youtube::before {
@@ -712,7 +760,8 @@ input[type="radio"].visually-hidden {
 
   background-image: url("../img/youtube.svg");
   background-repeat: no-repeat;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .social-button:hover,
