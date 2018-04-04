@@ -170,6 +170,7 @@ input[type="radio"].visually-hidden {
 
 .reasons-row:nth-of-type(3) {
   justify-content: flex-end;
+
   background-color: #97967f;
   background-image: url("../img/devils-bridge-full.jpg");
   background-repeat: no-repeat;
@@ -223,20 +224,6 @@ input[type="radio"].visually-hidden {
 
   background-color: #97967f;
 }
-
-/* .reasons-row:nth-of-type(1) .reasons-row-double-cell {
-  background-color: #97967f;
-  background-image: url("../img/open-range-full.jpg");
-  background-repeat: no-repeat;
-  background-position: 0 -78px;
-}
-
-.reasons-row:nth-of-type(3) .reasons-row-double-cell {
-  background-color: #97967f;
-  background-image: url("../img/devils-bridge-full.jpg");
-  background-repeat: no-repeat;
-  background-position: 0 -76px;
-} */
 
 .reasons-row-list {
   display: flex;
@@ -1005,7 +992,6 @@ input[type="radio"].visually-hidden {
 
 .btn-filter {
   display: block;
-  /* margin: 0 auto; */
   margin-left: 84px;
   padding: 6px 35px;
 
@@ -1274,27 +1260,6 @@ a.button-booking:active {
 .five-stars {
   width: 90px;
 }
-
-/* .result-hotel-rating-stars ul {
-  margin: 0;
-  padding: 0;
-  padding-top: 3px;
-
-  list-style: none;
-}
-
-.result-hotel-rating-stars li {
-  display: inline-block;
-  width: 18px;
-  height: 17px;
-  margin-left: 2px;
-
-  vertical-align: top;
-
-  background-image: url("../img/star.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-} */
 
 .result-hotel-rating-value {
   width: 110px;
