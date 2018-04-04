@@ -1194,7 +1194,6 @@ input[type="radio"].visually-hidden {
 
 .result-hotel-info-booking {
   display: flex;
-  justify-content: space-between;
 }
 
 a.result-hotel-button {
