@@ -1184,7 +1184,7 @@ input[type="radio"].visually-hidden {
 
 a.result-hotel-button {
   height: 27px;
-  padding: 3px 5px;
+  padding: 3px 17px;
 
   font-weight: bold;
   vertical-align: bottom;
@@ -1193,7 +1193,6 @@ a.result-hotel-button {
 }
 
 a.button-more {
-  min-width: 110px;
   margin-right: 6px;
 
   background-color: #81b3d2;
@@ -1210,8 +1209,6 @@ a.button-more:active {
 }
 
 a.button-booking {
-  min-width: 142px;
-
   background-color: #766357;
 }
 
