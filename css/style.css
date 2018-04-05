@@ -480,10 +480,6 @@ input[type="radio"].visually-hidden {
   animation-fill-mode: forwards;
 }
 
-.js .button-clicked {
-
-}
-
 .search-form {
   position: absolute;
   bottom: 0;
