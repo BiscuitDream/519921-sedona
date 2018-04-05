@@ -477,6 +477,7 @@ input[type="radio"].visually-hidden {
 .js .modal-close {
   -webkit-animation: slideOutUp 0.6s;
   animation: slideOutUp 0.6s;
+  animation-fill-mode: forwards;
 }
 
 .js .button-clicked {
