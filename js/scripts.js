@@ -11,6 +11,8 @@ var isStorageSupport = true;
 var storageAdults = "";
 var storageChildren = "";
 
+document.documentElement.classList.replace('no-js', 'js');
+
 try {
 storageAdults = localStorage.getItem("numberOfAdults");
 storageChildren = localStorage.getItem("numberOfChildren");

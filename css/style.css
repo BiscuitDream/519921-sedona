@@ -442,21 +442,22 @@ input[type="radio"].visually-hidden {
 .modal-search {
   position: relative;
   z-index: 1;
+}
 
+.js .modal-search {
   display: none;
 }
 
-.modal-show {
+.js .modal-show {
   display: block;
 
   -webkit-animation: slideInDown;
-
           animation: slideInDown;
   -webkit-animation-duration: 0.6s;
           animation-duration: 0.6s;
 }
 
-.modal-error {
+.js .modal-error {
   -webkit-animation: shake 0.6s;
           animation: shake 0.6s;
 }
