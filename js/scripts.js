@@ -21,30 +21,30 @@ isStorageSupport = false;
 }
 
 toggleButton.addEventListener("click", function (evt) {
-evt.preventDefault();
-if (modalSearch.classList.contains("modal-error")) {
+  evt.preventDefault();
+  if (modalSearch.classList.contains("modal-error")) {
     modalSearch.classList.remove("modal-error");
-}
-modalSearch.classList.toggle("modal-show");
-if (storageAdults) {
+  }
+  modalSearch.classList.toggle("modal-show");
+  if (storageAdults) {
     adults.value = storageAdults;
-}
-if (storageAdults) {
+  }
+  if (storageAdults) {
     children.value = storageChildren;
-}
+  }
 });
 
 modalForm.addEventListener("submit", function (evt) {
-if (!arrival.value || !departure.value || !adults.value || !children.value) {
+  if (!arrival.value || !departure.value || !adults.value || !children.value) {
     evt.preventDefault();
     modalSearch.classList.remove("modal-error");
     modalSearch.offsetWidth = modalSearch.offsetWidth;
     modalSearch.classList.add("modal-error");
     console.log("Нужно ввести данные в форму");
-} else {
+  } else {
     if (isStorageSupport) {
     localStorage.setItem("numberOfAdults", adults.value);
     localStorage.setItem("numberOfChildren", children.value);
     }
-}
+  }
 });
