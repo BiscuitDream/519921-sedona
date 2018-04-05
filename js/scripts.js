@@ -25,13 +25,19 @@ toggleButton.addEventListener("click", function (evt) {
   if (modalSearch.classList.contains("modal-error")) {
     modalSearch.classList.remove("modal-error");
   }
-  modalSearch.classList.toggle("modal-show");
+  modalSearch.classList.add("modal-show");
   if (storageAdults) {
     adults.value = storageAdults;
   }
   if (storageAdults) {
     children.value = storageChildren;
   }
+  if (toggleButton.classList.contains("button-clicked")) {
+    modalSearch.classList.add("modal-close");
+  } else {
+    modalSearch.classList.remove("modal-close");
+  }
+  toggleButton.classList.toggle("button-clicked");
 });
 
 modalForm.addEventListener("submit", function (evt) {
